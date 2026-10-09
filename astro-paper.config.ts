@@ -3,7 +3,7 @@ import { defineAstroPaperConfig } from "./src/types/config";
 export default defineAstroPaperConfig({
   site: {
     url: "https://alpkeser.github.io/",
-    title: "Alp Keser",
+    title: "Alp's blog",
     description: "Writing about software, photography, and the things I notice along the way.",
     author: "Alp Keser",
     profile: "https://github.com/alpkeser",
@@ -28,6 +28,7 @@ export default defineAstroPaperConfig({
   socials: [
     { name: "github", url: "https://github.com/alpkeser" },
     { name: "mail", url: "mailto:yalpkeser@gmail.com" },
+    { name: "rss", url: "/rss.xml", linkTitle: "RSS feed" },
   ],
   shareLinks: [],
 });

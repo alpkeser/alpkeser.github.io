@@ -1,4 +1,4 @@
-# Alp Keser
+# Alp's blog
 
 A Markdown publication built on [AstroPaper](https://github.com/satnaing/astro-paper) and hosted with GitHub Pages.
 
@@ -35,7 +35,7 @@ Set `draft: true` until ready. Keep photographs in `src/assets/images/` and refe
 
 ## Typography
 
-The intended production font is **Nitti** by Bold Monday: Regular for body text, Medium for headings, and Italic for emphasis. Licensed Nitti webfont files and permission to self-host them have not yet been supplied. The site therefore uses **iA Writer Mono** as a temporary preview font, with attribution in the footer. Its OFL license is included in `public/fonts/`. No Nitti files are in this repository.
+The intended production font is **Nitti** by Bold Monday: Regular for body text, Medium for headings, and Italic for emphasis. Licensed Nitti webfont files and permission to self-host them have not yet been supplied. The site therefore uses **iA Writer Mono** from [iA-Fonts](https://github.com/iaolo/iA-Fonts) as a temporary preview font. Its OFL license is included in `public/fonts/`. No Nitti files are in this repository.
 
 When Nitti is available, replace the font files and declarations in `src/styles/fonts.css`, update the family and heading weights in `src/styles/theme.css` and `src/styles/typography.css`, and change the preload in `src/layouts/Layout.astro`. Confirm the actual font files load in browser network and computed-style tools before calling the switch complete. Check the licence before committing font files to a public repository.
 
