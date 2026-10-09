@@ -4,7 +4,7 @@ A Markdown publication built on [AstroPaper](https://github.com/satnaing/astro-p
 
 ## Provenance
 
-The project started from AstroPaper commit `35cfa7fbe0b897306d27670d3819e55d5205f3dd` (version 6.1.0 in its package metadata, using Astro 7.0.3). The template license is in [LICENSE](LICENSE). The previous Jekyll site remains in Git history at commit `8c47ce4`; a tracked-file snapshot was also saved locally as `/private/tmp/alpkeser-github-io-before-astro-2026-10-09.tar.gz`.
+The project started from AstroPaper commit `35cfa7fbe0b897306d27670d3819e55d5205f3dd` (version 6.1.0 in its package metadata, initially using Astro 7.0.3). Dependencies were refreshed within the template's declared ranges on 9 October 2026 to resolve published advisories. The template license is in [LICENSE](LICENSE). The previous Jekyll site remains in Git history at commit `8c47ce4`; a tracked-file snapshot was also saved locally as `/private/tmp/alpkeser-github-io-before-astro-2026-10-09.tar.gz`.
 
 ## Run locally
 
