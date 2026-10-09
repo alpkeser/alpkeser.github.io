@@ -1,0 +1,53 @@
+@import "tailwindcss";
+@import "./fonts.css";
+@import "./theme.css";
+@import "./typography.css";
+@import "rehype-callouts/theme/obsidian";
+
+@custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
+
+#sun-icon,
+[data-theme="dark"] #moon-icon {
+  display: none;
+}
+
+[data-theme="dark"] #sun-icon {
+  display: block;
+}
+
+@layer base {
+  html {
+    font-synthesis: none;
+  }
+
+  * {
+    @apply border-border outline-accent/75;
+    scrollbar-width: auto;
+    scrollbar-color: var(--color-muted) transparent;
+  }
+  a,
+  button,
+  #main-content {
+    @apply outline-accent outline-offset-1 focus-visible:no-underline focus-visible:outline-2 focus-visible:outline-dashed;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility max-w-app {
+  max-width: 72ch;
+}
+
+@utility app-layout {
+  @apply max-w-app mx-auto w-full px-5 sm:px-6;
+}
+
+@utility active-nav {
+  @apply underline decoration-wavy decoration-2 underline-offset-8;
+}
+
+:target {
+  scroll-margin-block: 1rem;
+}
